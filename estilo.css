@@ -1,0 +1,171 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+@font-face {
+    font-family: euro;
+    src: url(fontes/eurof75.ttf);
+}
+
+@font-face {
+    font-family: euro2;
+    src: url(fontes/eurof55.ttf);
+}
+
+@font-face {
+    font-family: gokside;
+    src: url(fontes/78936___.TTF);
+}
+
+.bg-s2{
+    background: #de0877;
+}
+    .bg-s3{
+        background: #f879dd67;
+    }
+
+    .bg-s{
+        background-color: #fddadf;
+    }
+
+    .text-s{
+        color: #de0877;
+    }
+
+    .negrito{
+        font-weight: bolder;
+    }
+
+    .text-r{
+        float: right;
+    }
+
+    .btns{
+        display: none;
+    }
+
+    .sublinhado{
+        text-decoration: underline;
+    }
+
+    .sublinhado-rosa{
+        border-bottom: 1px solid #cc00a0;
+        padding-bottom: 1%;
+        margin: 0 1rem;
+    }
+
+
+    .navbar .ul{
+        list-style-type: none;
+        margin-left: -2.5rem;
+        margin-top: .8em;
+        display: none;
+    }
+
+    .navbar .ul li{
+        cursor: pointer;
+        transition: .3;
+    }
+
+    .navbar .ul li:hover, .navbar .ul li:hover {
+        background: #de0877;
+        transition: .3;
+        width: 100%!important;
+        color: white!important;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 2px #307adb;
+    }
+
+
+    .navbar .ul li:hover, .navbar .ul li:hover a {
+        color: white!important;
+    }
+
+
+    .btn-primary{
+        border-radius: 50px!important;
+        background: linear-gradient(45deg, #f879dc, #cc00a0, #fa7bde, transparent, #75b5ff , #ff92e7, #ff30d2 );
+        background-size: 50rem ;
+        animation: 7s bg alternate-reverse infinite;
+    }
+
+    @keyframes bg {
+        0%{
+         background-position: 0% 50%;
+         }
+       50%{
+        background-position: 100% 50%;
+        }
+        100%{
+         background-position: 0% 50%;
+         }
+    }
+
+    @media screen and (min-width: 770px) {
+        .titulo{
+            display: none;
+        }
+
+        .btns{
+            position: absolute;
+            right: 3rem;
+            display: block;
+            border:  1px solid #cc00a0;
+            border-radius: 50px;
+        }   
+
+        .btns button{
+            color: #cc00a0;
+            transition: .5s;
+            opacity: .5;
+        }
+
+        .btns button:hover{
+            transition: .5s;
+            transform: scale(1.05);
+            opacity: 1;
+            color: #cc00a0;
+        }
+
+        .btns button:focus{
+            box-shadow: none!important;
+        }
+
+    }
+
+
+    .foo{
+        position: auto;
+        bottom: 0!important;
+        left: 0;
+        right: 0;
+    }
+
+    .foo div span{
+        color: white!important;
+    }
+
+    .foo div span a{
+        color: white!important;
+        text-decoration: underline;
+    }
+
+
+    .whatsapp{
+        position: fixed;
+        right: -.5rem;
+        bottom: 3rem;
+        z-index: 1000;
+        background-color: #e9ffe8;
+        padding:.4rem .8rem;
+        padding-right: 1.5rem;
+        border-top-left-radius: 25px;
+        transform: translateX(1000px);
+        border-bottom-left-radius: 25px;
+    }
+
+    .whatsapp svg{
+        height: 3em;
+        stroke: green;
+    }

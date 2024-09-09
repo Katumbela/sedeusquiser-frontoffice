@@ -1,0 +1,30 @@
+.ben::before{
+    content: '';
+    position: absolute;
+    background: rgb(249, 220, 255);
+    height: 50vh;
+    width: 100vw;
+    padding: 1rem 1rem;
+    transform: skewY(6deg);
+    z-index: -1000;
+    box-shadow: 0px 0px 10px 6px rgb(255, 21, 216);
+}
+
+.ben svg{
+    animation: 1s beca linear infinite ;
+    float: right;
+    margin-right: .5rem;
+    margin-top: -2rem;
+}
+
+@keyframes beca {
+    0%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}

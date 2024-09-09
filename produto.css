@@ -1,0 +1,71 @@
+.card-footer{
+    width: 13rem!important;
+    height: 20rem!important;
+    margin: 3rem 0;
+}
+
+
+.c1{
+    background-color: white!important;
+    border: 2px solid #dc4df8!important;
+}
+.c2{
+    background-color: white!important;
+    border: 2px solid #dc4df8!important;
+    background-color: #fcd6f9ec!important;
+}
+.c3{
+    background-color: white!important;
+    border: 2px solid #dc4df8!important;
+    background-color: #e2e2e2!important;
+}
+
+.card-footer button{
+    position: absolute;
+    bottom: 5rem;
+    left: 2.5rem;
+    right: 1rem;
+}
+
+
+.f-12{
+    font-size: 12px;;
+}.f-13{
+    font-size: 13px;;
+}.f-14{
+    font-size: 14px;;
+}.f-15{
+    font-size: 15px;;
+}.f-16{
+    font-size: 16px;;
+}.f-17{
+    font-size: 17px;;
+}.f-18{
+    font-size: 18px;;
+}.f-19{
+    font-size: 19px;;
+}.f-20{
+    font-size: 20px;;
+}.f-21{
+    font-size: 21px;;
+}.f-25{
+    font-size: 25px;;
+}.f-30{
+    font-size: 30px;;
+}.f-31{
+    font-size: 31px;;
+}.f-32{
+    font-size: 32px;;
+}.f-33{
+    font-size: 33px;;
+}.f-34{
+    font-size: 34px;;
+}.f-35{
+    font-size: 35px;;
+}.f-40{
+    font-size: 40px;;
+}.f-45{
+    font-size: 45px;;
+}.f-50{
+    font-size: 50px;;
+}
