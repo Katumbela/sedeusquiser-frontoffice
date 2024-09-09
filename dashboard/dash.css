@@ -1,0 +1,25 @@
+
+.mensagens{
+    position: fixed!important;
+    right: 0!important;
+    top: 0!important;
+    bottom: 0!important;
+    width: 50vw!important;
+    z-index: 1000000000!important;
+    background: #ffe1f0!important;
+}
+
+.fecho{
+    background: #7758689d;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.loader{
+     height: 3rem;
+     border: 2px solid #de0877;
+     border-radius: 50px;
+}
