@@ -1,0 +1,7 @@
+php_value display_errors Off
+php_value mbstring.http_input auto
+ 
+
+ErrorDocument 403 https://sedeusquiser.org/403/
+ErrorDocument 404 https://sedeusquiser.org/404
+ErrorDocument 500 https://sedeusquiser.org/500/
