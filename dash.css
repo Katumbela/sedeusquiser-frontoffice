@@ -1,0 +1,16 @@
+
+    @media screen and (min-width: 700px) {
+        body{
+       background: #ff8fc9!important;
+   }
+   }
+  
+   main{
+       background: #fff;
+       border-radius: 15px;
+   }
+
+   .main{
+       border: 2px solid #ff8fc9!important;
+       border-radius: 10px!important;
+   }
