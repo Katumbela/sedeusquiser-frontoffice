@@ -1,0 +1,34 @@
+.q_curso{
+    border: 1px solid #de0877;
+}
+
+.q_curso .cardd img{
+    height: 12em!important;
+    width: 17em!important;
+}
+
+.q_curso .corpo{
+    width: 15.5em!important;
+}
+
+.btn-outline-primary{
+    border-radius: 20px!important;
+    border-color: rgb(221, 8, 118)!important;
+    color: #de0877!important;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus{
+    color: white!important;
+}
+
+.outros .o-corpo .o_quadro div{
+    border: 1px solid #de0877;
+    background: white;
+    margin: 2rem .5rem;
+    text-align: center;
+    width: 90%;
+    height: 65%;
+    padding: 1rem 0;
+    box-shadow: 0px 0px 12px 3px #0066be;
+    border-radius: 15px;
+}
